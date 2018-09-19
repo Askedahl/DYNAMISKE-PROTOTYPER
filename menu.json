@@ -1,0 +1,273 @@
+[
+    {
+        "id": 10,
+        "kategori": "forretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 29,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Karapatien",
+        "billede": "https://image.ibb.co/ctvTMe/desert_01_01.png"
+},
+    {
+        "id": 12,
+        "kategori": "forretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 49,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Krigien ",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+},
+    {
+        "id": 14,
+        "kategori": "forretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 49,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Sibirien",
+        "billede": "https://image.ibb.co/mYFy4z/drinks_01.png"
+  },
+    {
+        "id": 17,
+        "kategori": "forretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 79,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Baltikum ",
+        "billede": "https://image.ibb.co/d5X0HK/forret_01_01.png"
+  },
+    {
+        "id": 19,
+        "kategori": "forretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 69,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Østsibirien",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+  },
+    {
+        "id": 2,
+        "kategori": "hovedretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 99,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Bulgarien",
+        "billede": "https://image.ibb.co/d5X0HK/forret_01_01.png"
+  },
+    {
+        "id": 21,
+        "kategori": "hovedretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 89,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Novogorod",
+        "billede": "https://image.ibb.co/mYFy4z/drinks_01.png"
+  },
+    {
+        "id": 25,
+        "kategori": "hovedretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 179,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Viktoriagrad",
+        "billede": "https://image.ibb.co/ctvTMe/desert_01_01.png"
+  },
+    {
+        "id": 34,
+        "kategori": "hovedretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 109,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Sibirien",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+  },
+    {
+        "id": 36,
+        "kategori": "hovedretter",
+        "relaterede": 60,
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 199,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Rusland",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+},
+    {
+        "id": 38,
+        "kategori": "hovedretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 139,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Moldavien",
+        "billede": "https://image.ibb.co/mYFy4z/drinks_01.png"
+},
+    {
+        "id": 41,
+        "kategori": "hovedretter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 149,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": null,
+        "billede": "https://image.ibb.co/ctvTMe/desert_01_01.png"
+},
+    {
+        "id": 42,
+        "kategori": "desserter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 79,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Bordurien",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+},
+    {
+        "id": 43,
+        "kategori": "desserter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 69,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Petrograd",
+        "billede": "https://image.ibb.co/d5X0HK/forret_01_01.png"
+},
+    {
+        "id": 44,
+        "kategori": "desserter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 89,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Kirgisistan",
+        "billede": "https://image.ibb.co/mYFy4z/drinks_01.png"
+},
+    {
+        "id": 45,
+        "kategori": "desserter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 49,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Nordkorea",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+},
+    {
+        "id": 52,
+        "kategori": "desserter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 39,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": null,
+        "billede": "https://image.ibb.co/d5X0HK/forret_01_01.png"
+},
+    {
+        "id": 54,
+        "kategori": "desserter",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 59,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": null,
+        "billede": "https://image.ibb.co/mYFy4z/drinks_01.png"
+},
+    {
+        "id": 55,
+        "kategori": "drikkevarer",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 55,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Skt Petersburg",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+},
+    {
+        "id": 60,
+        "kategori": "drikkevarer",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 19,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Sibirien",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+},
+    {
+        "id": 62,
+        "kategori": "drikkevarer",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 39,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": null,
+        "billede": "https://image.ibb.co/mYFy4z/drinks_01.png"
+},
+    {
+        "id": 65,
+        "kategori": "drikkevarer",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 49,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Yekaterinburg",
+        "billede": "https://image.ibb.co/ctvTMe/desert_01_01.png"
+},
+    {
+        "id": 76,
+        "kategori": "drikkevarer",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 39,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Pripyat",
+        "billede": "https://image.ibb.co/d5X0HK/forret_01_01.png"
+    },
+    {
+        "id": 77,
+        "kategori": "sideorders",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 29,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Gryzkigistan",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+},
+    {
+        "id": 78,
+        "kategori": "sideorders",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 19,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Murmansk",
+        "billede": "https://image.ibb.co/mYFy4z/drinks_01.png"
+},
+    {
+        "id": 79,
+        "kategori": "sideorders",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 49,
+        "kortbeskrivelse": "Russisk salat med ærter, bønner, gulerødder og mayonnaise fra Volgograd",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Volgograd",
+        "billede": "https://image.ibb.co/ctvTMe/desert_01_01.png"
+},
+    {
+        "id": 80,
+        "kategori": "sideorders",
+        "navn": "Lorem ipsum dolor sit",
+        "pris": 29,
+        "kortbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "langbeskrivelse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel metus vitae leo accumsan congue. Donec tempus eu sem non ornare. Duis vitae finibus dolor.",
+        "oprindelsesregion": "Murmansk",
+        "billede": "https://image.ibb.co/b91Gre/hovedret_01_01.png"
+}
+]

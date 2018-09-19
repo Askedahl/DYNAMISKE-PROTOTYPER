@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+    <title>Forside</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="/index.html">Front page</a>
+                <a href="/menu.html">Menu</a>
+                <a href="/nyheder.html">News</a>
+                <a href="/historie.html">History</a>
+                <a href="/kontakt.html">Contacts</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="modal">
+            <div id="modal-content">
+                <button class="close-button">Close</button>
+                <h2 class="modal-navn"></h2>
+                <img class="modal-billede" src="" alt="">
+            </div>
+        </section>
+    
+    <main>
+        
+        <div>
+            <nav>
+                <button class="menu-item" data-kategori="alle">All</button>
+                <button class="menu-item" data-kategori="forretter">Entrées</button>
+                <button class="menu-item" data-kategori="hovedretter">Main courses</button>
+                <button class="menu-item" data-kategori="desserter">Desserts</button>
+                <button class="menu-item" data-kategori="drikkevarer">Drinks</button>
+            </nav>
+        </div>
+        <h1></h1>
+        <main class="container">
+            <section class="data-container"></section>
+        </main>
+        <template class="data-template">
+      <article class="retter">
+          <h2></h2>
+          <img src="" alt=""><br>
+            <span class="data-kortbeskrivelse"></span><br>
+            Pris: <span class="data-pris"></span><br>
+      </article>
+   </template>
+    </main>
+
+    <footer></footer>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        let dest = document.querySelector(".data-container"),
+            retter,
+            kategoriFilter = "alle";
+        document.addEventListener("DOMContentLoaded", hentJson);
+
+        async function hentJson() {
+            let myJson = await fetch("menu.json");
+            retter = await myJson.json();
+            visRetter();
+        }
+
+        document.querySelectorAll(".menu-item").forEach(knap => {
+            knap.addEventListener("click", filtrering)
+        });
+
+        function filtrering() {
+            dest.textContent = "";
+            kategoriFilter = this.getAttribute("data-kategori");
+            visRetter();
+        }
+
+        function visRetter() {
+            let temp = document.querySelector(".data-template");
+            //løb personlisten igennem og lav en klon
+            retter.forEach(retter => {
+                if (retter.kategori == kategoriFilter || kategoriFilter == "alle") {
+                    let klon = temp.cloneNode(true).content;
+                    //indsæt data i klonen
+                    klon.querySelector("h2").textContent = retter.navn;
+                    klon.querySelector("img").src = retter.billede;
+                    klon.querySelector("img").addEventListener("click", () => {
+                        vismodal(retter);
+                    });
+                    klon.querySelector("h2").addEventListener("click", () => {
+                        vismodal(retter);
+                    });
+                    klon.querySelector(".data-kortbeskrivelse").textContent = retter.kortbeskrivelse;
+                    klon.querySelector(".data-pris").textContent = retter.pris;
+                    //placer klon i DOM
+                    dest.appendChild(klon);
+                }
+            })
+        }
+        function vismodal(retter) {
+            let modal = document.querySelector("#modal")
+            modal.classList.add("vis");
+            modal.querySelector(".modal-navn").textContent = retter.navn;
+            modal.querySelector(".modal-billede").src = retter.billede;
+            modal.querySelector(".modal-billede").alt = "foto af" + retter.navn;
+            modal.querySelector(".modal-navn").textContent = retter.langbeskrivelse;
+            modal.querySelector("button").addEventListener("click", skjulmodal);
+        }
+
+        function skjulmodal() {
+            modal.classList.remove("vis");
+        }
+    </script>
+</body>
+
+</html>
